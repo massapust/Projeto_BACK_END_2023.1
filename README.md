@@ -224,4 +224,4 @@ Retorno:
 
 lista_pedidos_doacao /GET
 Retorno:
-      <code>Sucesso: Boolean</code>
+     <pre class="notranslate"> <code>Sucesso: Boolean</code></pre>
