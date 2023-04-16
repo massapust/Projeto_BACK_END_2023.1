@@ -4,7 +4,7 @@
 
 <hr></hr>
 Equipe Responsável pela Elaboração
-Lucas Batista da Silva – Desenvolvedor – Matrícula:01334252
+Lucas Batista da Silva – Desenvolvedor – Matrícula:01334252<br>
 katia pereira da silva - Desenvolvedor - Matrícula: 01527087
 <hr> </hr>
 <h1>Público Alvo</h1>
