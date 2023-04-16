@@ -196,8 +196,8 @@ excluir_doador/ DELETE
 Parametros:
 id: Integer
 
-Retorno:
-      Sucesso: Boolean
+<h1>Retorno:</h1>
+      <pre class="notranslate"> <code>Sucesso: Boolean</code></pre>
 
 LocaisDoacao
 consultar_local / GET
