@@ -149,3 +149,79 @@ Desenvolvido por Lucas Batista:
 
  Desenvolvida Por Lucas Batista:
  Tela contendo informações e endereço do laboratorio no qual o usuario pesquisou.
+ 
+ API / CONTRATO JSON
+
+Doador
+cadastrar_doador / POST
+Parametros:
+nome_completo: String,
+data_nascimento: Date, 
+telefone: Long,
+email: String, 
+tipo_sanguineo: String, 
+senha_acesso: Boolean
+
+Retorno:
+   sucesso: Boolean
+
+alterar_doador / PUT
+Parametros:
+id: Integer, 
+nome_completo: String,
+data_nascimento: Date, 
+telefone: Long,
+tipo_sanguineo: String
+
+Retorno:
+      Sucesso: Boolean
+
+alterar_senha/PUT
+Parametros:
+id: Integer, 
+senha_atual: String, 
+nova_senha: String
+
+Retorno:
+      Sucesso: Boolean
+
+resgatar_senha /POST
+Parametros:
+email: String
+
+Retorno:
+      Sucesso: Boolean
+
+excluir_doador/ DELETE
+Parametros:
+id: Integer
+
+Retorno:
+      Sucesso: Boolean
+
+LocaisDoacao
+consultar_local / GET
+Parametros:
+nome_local: String
+
+Retorno:
+      Sucesso: Boolean
+
+listar_locais_doação /GET
+Retorno:
+      Sucesso: Boolean
+PedidosDoacao
+cadastrar_pedido / POST
+Parametros:
+•	nome_paciente: String, 
+•	hospital: String, 
+•	setor_internacao: String, 
+•	tipo_sanguineo: String,
+•	mensagem: String
+
+Retorno:
+      Sucesso: Boolean
+
+lista_pedidos_doacao /GET
+Retorno:
+      Sucesso: Boolean
