@@ -154,8 +154,8 @@ Desenvolvido por Lucas Batista:
 
 Doador
 cadastrar_doador / POST
-Parametros:
-nome_completo: String,
+<h1>Parametros:</h1>
+<pre class="notranslate"> <code>nome_completo: String,
 data_nascimento: Date, 
 telefone: Long,
 email: String, 
@@ -163,7 +163,7 @@ tipo_sanguineo: String,
 senha_acesso: Boolean
 
 Retorno:
-   sucesso: Boolean
+   sucesso: Boolean<//code></pre>
 
 alterar_doador / PUT
 Parametros:
