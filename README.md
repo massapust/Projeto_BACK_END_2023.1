@@ -58,11 +58,11 @@ alterar cadastro
 
 
 
-	<h1>Telas Figma</h1>
+	<hr></hr>
+<hr> </hr>
+<h1>Telas Figma</h1>
 
 	https://www.figma.com/file/bQJx5EY1SFFHWZmDI9H7GT/Hora-de-doar?node-id=0-1&t=yMAcPnVRcaTk4jdD-0
-<hr> </hr>
-
 
   <h1> Logo Tipo</h1>
 
