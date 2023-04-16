@@ -150,10 +150,11 @@ Desenvolvido por Lucas Batista:
  Desenvolvida Por Lucas Batista:
  Tela contendo informações e endereço do laboratorio no qual o usuario pesquisou.
  
- API / CONTRATO JSON
-
-Doador
-cadastrar_doador / POST
+<h1>API / CONTRATO JSON</h1>
+<br></br>
+<h1>Doador</h1>
+<h1>cadastrar_doador / POST</h1>
+<br></br>
 <h1>Parametros:</h1>
 <pre class="notranslate"> <code>{
 nome_completo: String,
