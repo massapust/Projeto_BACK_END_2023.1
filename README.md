@@ -160,10 +160,10 @@ data_nascimento: Date,
 telefone: Long,
 email: String, 
 tipo_sanguineo: String, 
-senha_acesso: Boolean
+senha_acesso: Boolean </code></pre>
 
-Retorno:
-   sucesso: Boolean<//code></pre>
+<h1>Retorno:</h1>
+   <pre class="notranslate"> <code>sucesso: Boolean</code></pre>
 
 alterar_doador / PUT
 Parametros:
