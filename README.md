@@ -223,11 +223,11 @@ email: String
 <br></br>
 <h1>Parametros:</h1>
 <pre class="notranslate"> <code>{
-	nome_paciente: String, 
-	hospital: String, 
-	setor_internacao: String, 
-	tipo_sanguineo: String,
-	mensagem: String
+nome_paciente: String, 
+hospital: String, 
+setor_internacao: String, 
+tipo_sanguineo: String,
+mensagem: String
 }</code></pre>
 
 <h3>Retorno:</h3>
