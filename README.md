@@ -196,7 +196,7 @@ excluir_doador/ DELETE
 Parametros:
 id: Integer
 
-<h1>Retorno:</h1>
+<h3>Retorno:</h3>
       <pre class="notranslate"> <code>Sucesso: Boolean</code></pre>
 
 LocaisDoacao
