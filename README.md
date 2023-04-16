@@ -155,12 +155,15 @@ Desenvolvido por Lucas Batista:
 Doador
 cadastrar_doador / POST
 <h1>Parametros:</h1>
-<pre class="notranslate"> <code>nome_completo: String,
+<pre class="notranslate"> <code>
+{
+nome_completo: String,
 data_nascimento: Date, 
 telefone: Long,
 email: String, 
 tipo_sanguineo: String, 
-senha_acesso: Boolean </code></pre>
+senha_acesso: Boolean
+}</code></pre>
 
 <h1>Retorno:</h1>
    <pre class="notranslate"> <code>sucesso: Boolean</code></pre>
