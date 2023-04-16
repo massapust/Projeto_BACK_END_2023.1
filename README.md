@@ -155,8 +155,7 @@ Desenvolvido por Lucas Batista:
 Doador
 cadastrar_doador / POST
 <h1>Parametros:</h1>
-<pre class="notranslate"> <code>
-{
+<pre class="notranslate"> <code>{
 nome_completo: String,
 data_nascimento: Date, 
 telefone: Long,
@@ -165,9 +164,10 @@ tipo_sanguineo: String,
 senha_acesso: Boolean
 }</code></pre>
 
-<h1>Retorno:</h1>
+<h3>Retorno:</h3>
    <pre class="notranslate"> <code>sucesso: Boolean</code></pre>
 
+<pre class="notranslate"> <code>{
 alterar_doador / PUT
 Parametros:
 id: Integer, 
@@ -175,56 +175,64 @@ nome_completo: String,
 data_nascimento: Date, 
 telefone: Long,
 tipo_sanguineo: String
+}</code></pre>
 
-Retorno:
-      Sucesso: Boolean
+<h3>Retorno:</h3>
+      <pre class="notranslate"> <code>Sucesso: Boolean</code></pre>
 
+<pre class="notranslate"> <code>{
 alterar_senha/PUT
 Parametros:
 id: Integer, 
 senha_atual: String, 
 nova_senha: String
-
-Retorno:
-      Sucesso: Boolean
-
-resgatar_senha /POST
-Parametros:
-email: String
-
-Retorno:
-      Sucesso: Boolean
-
-excluir_doador/ DELETE
-Parametros:
-id: Integer
+}</code></pre>
 
 <h3>Retorno:</h3>
       <pre class="notranslate"> <code>Sucesso: Boolean</code></pre>
 
-LocaisDoacao
-consultar_local / GET
+<pre class="notranslate"> <code>{
+resgatar_senha /POST
 Parametros:
-nome_local: String
+email: String
+}</code></pre>
+<h3>Retorno:</h3>
+      <pre class="notranslate"> <code>Sucesso: Boolean</code></pre>
 
-Retorno:
-      Sucesso: Boolean
+<pre class="notranslate"> <code>excluir_doador/ DELETE</code></pre>
+<h1>Parametros:</h1>
+<pre class="notranslate"> <code>id: Integer</code></pre>
 
-listar_locais_doação /GET
-Retorno:
-      Sucesso: Boolean
-PedidosDoacao
-cadastrar_pedido / POST
-Parametros:
+<h3>Retorno:</h3>
+      <pre class="notranslate"> <code>Sucesso: Boolean</code></pre>
+
+<h1>LocaisDoacao</h1>
+<h1>consultar_local / GET</h1>
+<br></br>
+<h1>Parametros:</h1>
+<pre class="notranslate"> <code>nome_local: String</code></pre>
+
+<h3>Retorno:</h3>
+      <pre class="notranslate"> <code>Sucesso: Boolean</code></pre>
+
+<h1>listar_locais_doação /GET</h1>
+<h3>Retorno:</h3>
+      <pre class="notranslate"> <code>Sucesso: Boolean</code></pre>
+<h1>PedidosDoacao</h1>
+<h1.cadastrar_pedido / POST</h1>
+<br></br>
+<h1>Parametros:</h1>
+<pre class="notranslate"> <code>{
 •	nome_paciente: String, 
 •	hospital: String, 
 •	setor_internacao: String, 
 •	tipo_sanguineo: String,
 •	mensagem: String
+}</code></pre>
 
-Retorno:
-      Sucesso: Boolean
+<h3>Retorno:</h3>
+      <pre class="notranslate"> <code>Sucesso: Boolean</code></pre>
 
-lista_pedidos_doacao /GET
-Retorno:
+<h1>lista_pedidos_doacao /GET</h1>
+<h3>Retorno:</h3>
      <pre class="notranslate"> <code>Sucesso: Boolean</code></pre>
