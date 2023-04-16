@@ -57,12 +57,10 @@ alterar cadastro
 ![UML_Horadedoar](https://user-images.githubusercontent.com/112334078/232338322-9a884cce-6e1c-4560-92bd-12fff22989f4.jpg)
 
 
-
-	<hr></hr>
-<hr> </hr>
+	
+	
 <h1>Telas Figma</h1>
-
-	https://www.figma.com/file/bQJx5EY1SFFHWZmDI9H7GT/Hora-de-doar?node-id=0-1&t=yMAcPnVRcaTk4jdD-0
+https://www.figma.com/file/bQJx5EY1SFFHWZmDI9H7GT/Hora-de-doar?node-id=0-1&t=yMAcPnVRcaTk4jdD-0
 
   <h1> Logo Tipo</h1>
 
