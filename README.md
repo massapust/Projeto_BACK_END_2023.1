@@ -5,8 +5,9 @@
 <hr></hr>
 <h3>Equipe Responsável pela Elaboração</h3>
 <br>
-Lucas Batista da Silva – Desenvolvedor – Matrícula:01334252<br>
-katia pereira da silva - Desenvolvedor - Matrícula: 01527087
+Lucas Batista da Silva – Desenvolvedor – Matrícula:01334252<br> 
+katia pereira da silva - Desenvolvedor - Matrícula: 01527087<br>
+Gleyson -Desenvolvedor- Matricula: 01531292
 <hr> </hr>
 <h1>Requisitos Funcionais <h1><br>
  <h3>Cadastro</h3>
